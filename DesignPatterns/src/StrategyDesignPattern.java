@@ -3,7 +3,7 @@ import java.lang.reflect.Constructor;
 class Sport {
 	private String name;
 	private String originYear;
-	public Ball ball;
+	private Ball ball;
 	
 	Sport() {
 		name = "";
