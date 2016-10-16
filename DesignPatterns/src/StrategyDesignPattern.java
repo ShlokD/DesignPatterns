@@ -1,5 +1,3 @@
-import java.lang.reflect.Constructor;
-
 class Sport {
 	private String name;
 	private String originYear;
