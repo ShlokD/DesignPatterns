@@ -134,9 +134,7 @@ public class ObserverPattern {
 		newsSource.setTechNews("New Macbooks rumored to be launched on October 27");
 		
 		newsSource.unregister(newsAgency1);
-		
-		NewsAgency newsAgency2 = new NewsAgency(newsSource, "Agency 2");
-		
+				
 		newsSource.setBusinessNews("Whiskey workers strike at 2 Beam distilleries in Kentucky");
 		newsSource.setPoliticsNews("Trump continues with attacks on accusers, 'rigged' system");
 		newsSource.setTechNews("Facebook looks to launch Social VR App");
